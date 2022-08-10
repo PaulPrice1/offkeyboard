@@ -1,0 +1,7 @@
+wave
+numpy
+scipy
+typing
+pyaudio
+keyboard
+matplotlib
