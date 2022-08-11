@@ -41,11 +41,7 @@ Press CTRL+C to exit.
 
 ## Mouse Support
 
-It's difficult to send simulated mouse events on modern macOS. To send mouse events, we need to install a kernel extension and communicate with it.
-
-For this, I used the (very cool!) [foohid](https://github.com/unbit/foohid) library. This will typically require disabling SIP, so continue at your own risk.
-
-I'm intentionally leaving out detailed instructions for this bit for now, as disabling SIP and installing random kernel drivers is a security risk.
+ changed out foohid library for some other libraries.  Will update the requirements for libraries later. to be clear. I'm not the original maker, of this program. I'm just someone who was frustrated with trying to get foohid on a Linux environment.
 
 ## License
 
